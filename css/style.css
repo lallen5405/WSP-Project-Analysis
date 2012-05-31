@@ -1,0 +1,54 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License:none (public domain)
+*/
+html,body,div,span,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,
+b,u,i,center,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,embed,
+figure,figcaption,footer,header,hgroup,
+menu,nav,output,ruby,section,summary,
+time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{display:block;}
+body{line-height:1;color:#000;background:#ddd;}
+ul{list-style-type:decimal;list-style-position:inside;margin:1%;font-weight:bold;}
+ul li{margin-bottom:.3%;}
+ol{text-align:justify;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,
+q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+h1,h2,span{text-shadow:1px 1px 0px #000000;filter:dropshadow(color=#000000,offx=1,offy=1);}
+h1{font-size:2em;}
+h2{font-size:1.8em;}
+h3{margin-left:1%;font-size:1.2em;color:#60b9ce;}
+img{max-width:100%;margin:0;padding:0;border:1px solid #000;}
+/******************************
+END:CSS Reset
+******************************/
+.wrapper{max-width:960px;margin:1% auto;background:#fff;-webkit-border-radius:20px;border-radius:20px;border:1px solid #000;-webkit-box-shadow:1px 1px 1px 1px rgba(0,0,0,.4);box-shadow:1px 1px 1px 1px rgba(0,0,0,.4);overflow:hidden;}
+.wrapper#footer{-webkit-border-radius:10px;border-radius:10px;}
+header{background:#04819e;color:#ffffff;padding:1%;}
+section header{padding:.35% 1%;background:#38b2ce;border-top:1px solid #000;border-bottom:1px solid #000;}
+section header.first{border-top:none;}
+footer{background:#04819e;color:#ffffff;text-align:center;padding:.6% .3% .3% .3%;}
+footer span{text-shadow:1px 0px 1px #222222;filter:dropshadow(color=#222222,offx=0,offy=1);}
+footer a{color:#ff7f00;text-decoration:none;text-shadow:1px 1px 0px #000000;filter:dropshadow(color=#000000,offx=1,offy=1);}
+footer a.hover{text-shadow:none;text-decoration:underline;}
+p{text-indent:1%;margin:1%;}
+.thumbnail{float:right;clear:both;margin:-1% 2% 2% 2%;width:10.316666666667%;}
+/*  
+Colors Used:
+#04819e
+#38b2ce
+#60b9ce
+#ff7f00
+*/
